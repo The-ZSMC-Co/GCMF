@@ -1,4 +1,4 @@
-# gcmf
+# GCMF
 
 A reference encoder/decoder for **General-Purpose Compression via
 Mathematical Functions (GCMF)**, as specified in the Internet-Draft
