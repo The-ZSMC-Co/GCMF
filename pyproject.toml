@@ -1,0 +1,26 @@
+[project]
+name = "gcmf"
+version = "0.1.0"
+description = "Reference implementation of General-Purpose Compression via Mathematical Functions (draft-dutta-gcmf-01)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Srijal Dutta" }]
+keywords = ["compression", "lossless", "mdl", "symbolic-regression", "gcmf"]
+
+[project.urls]
+Homepage = "https://github.com/[USERNAME]/gcmf"
+Specification = "https://datatracker.ietf.org/doc/html/draft-dutta-gcmf-01"
+
+[project.scripts]
+gcmf = "gcmf.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["gcmf"]
